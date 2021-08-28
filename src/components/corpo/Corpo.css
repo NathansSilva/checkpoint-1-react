@@ -1,0 +1,40 @@
+.site-post{
+    display: flex;
+    max-width: 854px;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+.cnn-box{
+    background-color: #F5F5F5;
+    min-height: 100px;
+}
+
+.cnn-logo{
+    max-width: 100%;
+    max-height: 90px;
+    width: 130px;
+    float: right;
+    margin: 0;
+    position: static;
+    display: block;
+}
+
+.container-corpo{
+    max-width: 744px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .01em;
+    color: #262626;
+    font-weight: 300;
+}
+
+.p-text{
+    margin: 2% 0;
+    clear: both;
+}
+
+.article{
+    margin-top: 20px;
+}
