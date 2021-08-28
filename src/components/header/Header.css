@@ -1,0 +1,45 @@
+.site-content{
+    max-width: 1264px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-right: 4.5%;
+}
+
+.conteudo{
+    max-width: 892px;
+}
+
+.container-header{
+    margin: 0 auto;
+    display: flex;
+    flex: wrap;
+}
+
+.title{
+    color: #262626;
+    padding-bottom: 20px; 
+    /* margin-bottom: 15px; */
+    border-bottom: 1px solid #e0dbdb;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.subtitle{
+    margin: 15px 0;
+    max-width: 850px;
+}
+
+.span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4d4d4d;
+    font-style: normal;
+    border-top: 1px solid #e0dbdb;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
