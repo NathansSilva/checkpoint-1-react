@@ -8,7 +8,7 @@ export default function Header(){
 	<>
     <div className="site-content">
         <div className="container-header">
-            <main class='conteudo'>
+            <main class='content'>
                 <div>
                     <h1 className='title'>Quais são os sintomas da variante Delta da Covid-19? 
                         Teste seus conhecimentos</h1>
