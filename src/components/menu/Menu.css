@@ -30,7 +30,7 @@
     margin-right: 8px;
 }
 
-.red-color::after{
+.red-element::after{
     content: "";
     background-color: #ff0000;
     width: 10px;
