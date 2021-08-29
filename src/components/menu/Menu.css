@@ -23,7 +23,7 @@
     margin-right: 19px;
 }
 
-.elemento{
+.element{
     background-color: #9c9c9c69;
     padding: 13px 5px;
     margin: 0 auto;
@@ -42,4 +42,27 @@
 
 .bold-color{
     font-weight: bold;
+}
+
+@media (max-width:938px){
+    .main-header{
+        display: flex;
+        height: 100%;
+    }
+
+    .ul-menu {
+        display: block;
+    }
+
+    .elemento{
+        padding: 0 35px;
+    }
+
+    .ul-menu{
+        margin-left: 15px;
+    }
+
+    .main-action{
+        margin: 2px;
+    }
 }
