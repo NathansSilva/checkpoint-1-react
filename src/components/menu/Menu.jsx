@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Menu.css'
 
 // import { Container } from './styles';
 
-export default function menu() {
+export default function Menu() {
+  const[active, setModal] = useState(false);
+
   return(
     <header className='main-header'>
       <nav>
-        <ul className='ul-menu'>
+        <ul className={active ? 'ul-menu-mobile': 'ul-menu'} onClick={() => setModal(false)}>
           <li className='element'><a className='main-action red-element' href="#">Nacional</a></li>
           <li><a className='main-action' href="#">Business</a></li>
           <li><a className='main-action' href="#">Internacional</a></li>
@@ -20,6 +22,9 @@ export default function menu() {
           <li><a className='main-action' href="#">Newsletters</a></li>
           <li><a className='main-action' href="#">Podcasts</a></li>
         </ul>
+        <button className='menu-mobile' onClick={() => setModal(!active)}>
+        {active ? <i className='fas fa-times'></i>:<i className='fas fa-bars'></i>}
+        </button>
       </nav>
     </header>
   );

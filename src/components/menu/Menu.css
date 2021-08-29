@@ -44,25 +44,49 @@
     font-weight: bold;
 }
 
-@media (max-width:938px){
-    .main-header{
-        display: flex;
-        height: 100%;
-    }
+.menu-mobile{
+    display: none;
+}
 
-    .ul-menu {
-        display: block;
-    }
-
-    .elemento{
-        padding: 0 35px;
-    }
-
+@media (max-width:989px){
     .ul-menu{
-        margin-left: 15px;
+        display: none;
     }
 
-    .main-action{
-        margin: 2px;
+    .ul-menu-mobile{
+        display: block;
+        position: absolute;
+        list-style: none;
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        top:35px;
+        transition: all 0.3 ease-out;
+        left: 0;
     }
+
+    .menu-mobile{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+
+    .ul-menu-mobile .main-action{
+        margin: 15px;
+    }
+
+    .ul-menu-mobile .main-action:hover{
+        filter: brightness(150%);
+    }
+
+    .element{
+        margin-top: 35px;
+    }
+    
 }
